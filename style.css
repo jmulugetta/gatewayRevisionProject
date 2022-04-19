@@ -1,0 +1,149 @@
+body
+{
+  background-image:url(flag_staff.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+h1
+{
+  color:black;
+  background-color:white;
+  text-align: center;
+  margin-left:0px;
+  border-radius:14px;
+  padding-left: 0px;
+  padding-bottom:0px;
+  box-sizing:border-box;
+}
+
+ h2
+  {
+    color:black;
+    background-color:white;
+    text-align:center;
+    border-radius:14px;
+    padding-left:1px;
+    padding-bottom:0px;
+    box-sizing:border-box;
+  }
+
+
+p{
+  font-size:20px;
+
+ }
+
+
+/*nav bar*/
+
+li{
+    text-align:center;
+    display: inline-block;
+}
+
+
+ ul{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+
+  nav{
+   text-align:center;
+  }
+
+
+
+section.background {
+  margin: 5%;
+  padding:0px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+}
+
+section.transbox p {
+  margin: 7%;
+  font-weight: bold;
+  color: #000000;
+}
+/*This creates the box border for footer*/
+.footer-distributed {
+  position:sticky; 
+  background-color: #292c2f;
+  box-sizing: border-box;
+   left: 0;
+   bottom: 0;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+/*copyright text*/
+.footer-distributed .footer-left p {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+}
+/*logo image*/
+
+img{
+  
+  padding:0;
+  height:60px;
+  width:60px;
+}
+/*social media icons*/
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+/*social media icons*/
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+/*controls where buttons */
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width:180px;
+}
+
+/*controls the symbol inside of the box*/
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+/*hover control*/
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+
+
+
+
+
